@@ -29,3 +29,11 @@ Text Domain: sydney
 .elementor-element elementor-element-731e5d96 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section {
     display: none;
 }
+
+.elementor-background-overlay {
+    display: none;
+}
+
+.elementor-container elementor-column-gap-default {
+    display: none;
+}
