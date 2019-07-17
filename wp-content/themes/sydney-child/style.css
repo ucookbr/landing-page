@@ -88,6 +88,13 @@ Text Domain:sydney
         position: absolute;
         padding-right: 450px;
         }
+    .btn-menu {
+        display: none;
+    }
+    .responsive-menu-button.responsive-menu-boring.responsive-menu-accessible {
+        width: 8%;
+        height: 4%;
+    }
 }
 
 
