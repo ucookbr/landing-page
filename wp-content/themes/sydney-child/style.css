@@ -11,16 +11,17 @@ Tags: responsive-layout, food, cooking, diabetes, ight-sidebar, responsive-layou
 Text Domain: sydney
 */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) { 
     #masthead {
         background-color: transparent;
-        position: absolute;
+        position: relative;
         }
 }
 
 @media screen and (max-width: 1024px) {
     #masthead {
         background-color: transparent;
-        position: absolute;
+        position: relative;
         }
 }
+*/
