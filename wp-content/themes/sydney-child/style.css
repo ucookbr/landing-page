@@ -92,6 +92,7 @@ Text Domain:sydney
         background-color: transparent;
         position: absolute !important;
         padding-right: 450px;
+        margin-top: -20px;
         }
     .btn-menu {
         display: none;
