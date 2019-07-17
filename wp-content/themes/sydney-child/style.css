@@ -85,6 +85,10 @@ Text Domain:sydney
         position: relative;
         }
 
+        .site-logo {
+            max-height: 70px;
+        }
+
     .site-header.fixed {
         background-color: transparent;
         position: absolute !important;
@@ -93,11 +97,12 @@ Text Domain:sydney
         }
     .btn-menu {
         display: none;
-    }
+        }
+
     .responsive-menu-button.responsive-menu-boring.responsive-menu-accessible {
         width: 8%;
         height: 4%;
-    }
+        }
 }
 
 @media screen and (max-width: 360px) {
