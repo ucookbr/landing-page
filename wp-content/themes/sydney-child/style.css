@@ -100,26 +100,8 @@ Text Domain:sydney
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
-    .site-header {
-        background-color: transparent;
-        position: relative;
-        }
-
-    .site-header.fixed {
-        background-color: transparent;
-        position: absolute !important;
-        padding-right: 450px;
-        margin-top: -20px;
-        }
-    .btn-menu {
-        display: none;
-    }
-    .responsive-menu-button.responsive-menu-boring.responsive-menu-accessible {
-        width: 8%;
-        height: 4%;
-    }
+@media screen and (max-width: 360px) {
+    
 }
 
 
