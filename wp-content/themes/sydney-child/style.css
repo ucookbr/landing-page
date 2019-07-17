@@ -90,7 +90,7 @@ Text Domain:sydney
 
     .site-header.fixed {
         background-color: transparent;
-        position: relative;
+        position: absolute !important;
         padding-right: 450px;
         }
     .btn-menu {
