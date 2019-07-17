@@ -20,6 +20,11 @@ Text Domain:sydney
     display: none;
 }
 */
+
+.customer {
+    display: none;
+}
+
 .elementor-container-elementor-column-gap-default {
     display: none;
 }
