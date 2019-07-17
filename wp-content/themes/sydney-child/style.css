@@ -29,14 +29,7 @@ Text Domain:sydney
     display: none;
 }
 
-/*Time*/
-.owl-wrapper {
-    display: flexbox;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    padding-left: 100px;
-}
+
 
  /*Page-up*/
 .go-top-show {
@@ -54,6 +47,14 @@ Text Domain:sydney
         background-color: transparent;
         position: relative;
         }
+/*Time*/
+    .owl-wrapper {
+        display: flexbox;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 300px;
+}
 }
 
 @media screen and (max-width: 1024px) {
