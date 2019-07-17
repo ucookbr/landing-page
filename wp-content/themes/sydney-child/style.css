@@ -20,9 +20,9 @@ Text Domain:sydney
 .elementor-container-elementor-column-gap-default {
     display: none;
 }
-
-
-
+.fluid-width-video-wrapper {
+    display: none;
+}
  /*Page-up*/
 .go-top.show {
     border-radius: 100px;
