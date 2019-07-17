@@ -49,10 +49,6 @@ Text Domain:sydney
         }
 /*Time*/
     .owl-wrapper {
-        display: flexbox;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
         padding-left: 250px;
 }
 }
