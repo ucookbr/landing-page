@@ -98,7 +98,7 @@ class Sydney_Employees extends WP_Widget {
 								<div class="name"><?php the_title(); ?></div>
 								<div class="pos"><?php echo esc_html($position); ?></div>
 								<ul class="team-social">
-								<li><a class="linkedin" href="https://www.linkedin.com/in/julianaferracioli/"><i class="fa fab-linkedin"></i></a></li>
+								<li><a class="linkedin" href="https://www.linkedin.com/in/julianaferracioli/"><i class="fab fa-linkedin"></i></a></li>
 									<?php if ($facebook != '') : ?>
 										<li><a class="facebook" href="<?php echo esc_url($facebook); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
 									<?php endif; ?>
