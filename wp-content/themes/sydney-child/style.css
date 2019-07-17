@@ -12,14 +12,14 @@ Text Domain: sydney
 */
 
 @media screen and (min-width: 567px) {
-    #masthead {
+    .site-header-fixed {
         background-color: transparent;
         position: absolute;
         }
 }
 
 @media screen and (max-width: 567px) {
-    #masthead {
+    .site-header-fixed {
         background-color: transparent;
         position: absolute;
         }
