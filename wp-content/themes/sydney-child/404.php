@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! A página não pode ser encontrada.', 'sydney' ); ?></h1>
+					<h1 class="page-title"><?php _e( 'Oops! A página não pôde ser encontrada.', 'sydney' ); ?></h1>
 					<img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/uploads/404-app.png' ); ?>" alt="<?php esc_attr_e( '404', 'sydney' ); ?>">
 				</header><!-- .page-header -->
 
