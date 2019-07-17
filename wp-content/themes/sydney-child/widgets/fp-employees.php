@@ -85,7 +85,7 @@ class Sydney_Employees extends WP_Widget {
 			<?php while ( $r->have_posts() ) : $r->the_post(); ?>
 				<?php //Get the custom field values
 					$position = get_post_meta( get_the_ID(), 'wpcf-position', true );
-					$facebook = get_post_meta( get_the_ID(), 'wpcf-facebook', true );
+					$linkedin = get_post_meta( get_the_ID(), 'wpcf-linkedin', true );
 					$twitter  = get_post_meta( get_the_ID(), 'wpcf-twitter', true );
 					$google   = get_post_meta( get_the_ID(), 'wpcf-google-plus', true );
 					$link     = get_post_meta( get_the_ID(), 'wpcf-custom-link', true );
@@ -98,8 +98,8 @@ class Sydney_Employees extends WP_Widget {
 								<div class="name"><?php the_title(); ?></div>
 								<div class="pos"><?php echo esc_html($position); ?></div>
 								<ul class="team-social">
-									<?php if ($facebook != '') : ?>
-										<li><a class="facebook" href="<?php echo esc_url($facebook); ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<?php if ($linkedin != '') : ?>
+										<li><a class="linkedin" href="<?php echo esc_url($linkedin); ?>" target="_blank"><i class="fab fa-linkedin"></i></a></li>
 									<?php endif; ?>
 									<?php if ($twitter != '') : ?>
 										<li><a class="twitter" href="<?php echo esc_url($twitter); ?>" target="_blank"><i class="fa fa-twitter"></i></a></li>
