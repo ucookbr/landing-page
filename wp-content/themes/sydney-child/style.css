@@ -28,6 +28,21 @@ Text Domain:sydney
     border-radius: 100px;
 }    
 
+@media screen and (min-width: 1024px) { 
+    .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+        justify-content: center;
+        align-items: center;
+    }
+    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
+   .site-header {
+       background-color: transparent;
+       position: relative;
+       }
+/*Time*/
+   .owl-wrapper {
+       padding-left: 245px;
+}
+}
 
  @media screen and (min-width: 1200px) { 
      .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
@@ -45,16 +60,33 @@ Text Domain:sydney
 }
 }
 
+@media screen and (max-width: 1200px) { 
+    .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+        justify-content: center;
+        align-items: center;
+    }
+    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
+   .site-header {
+       background-color: transparent;
+       position: relative;
+       }
+/*Time*/
+   .owl-wrapper {
+       padding-left: 245px;
+}
+}
+
 @media screen and (max-width: 1024px) {
     .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
     .site-header {
         background-color: transparent;
         position: relative;
         }
-        
-    .site-header {
+
+    .site-header.fixed {
         background-color: transparent;
-        position: relative;
+        position: absolute;
+        padding-right: 450px;
         }
 }
 
