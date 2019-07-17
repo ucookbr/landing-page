@@ -11,20 +11,12 @@ Tags: responsive-layout, food, cooking, diabetes, ight-sidebar, responsive-layou
 Text Domain:sydney
 */
 
+/* Reativar/Excluir quando tivermos primeiros clientes */
 .elementor-element.elementor-element-731e5d96.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
     display: none;
 }
 
 
-/*.elementor-background-overlay {
-    display: none;
-}
-*/
-/* Reativar/Excluir quando tivermos primeiros clientes */
-/*.customer {
-    display: none;
-}
-*/
 .elementor-container-elementor-column-gap-default {
     display: none;
 }
@@ -54,6 +46,12 @@ Text Domain:sydney
 }
 
 @media screen and (max-width: 1024px) {
+    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
+    .site-header {
+        background-color: transparent;
+        position: relative;
+        }
+        
     .site-header {
         background-color: transparent;
         position: relative;
