@@ -20,7 +20,7 @@ Text Domain:sydney
     display: none;
 }
 */
-
+/* Reativar/Excluir quando tivermos primeiros clientes */
 .customer {
     display: none;
 }
@@ -29,6 +29,12 @@ Text Domain:sydney
     display: none;
 }
 
+/*Time*/
+.owl-wrapper {
+    display: flexbox;
+}
+
+ /*Page-up*/
 .go-top-show {
     border-radius: 100px;
 }    
