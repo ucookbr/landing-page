@@ -10,8 +10,31 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: responsive-layout, food, cooking, diabetes, ight-sidebar, responsive-layout, accessibility-ready, landing-page
 Text Domain:sydney
 */
-/*
- @media screen and (min-width: 1024px) { 
+
+.elementor-element-elementor-element-731e5d96-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+    display: none;
+}
+
+
+.elementor-background-overlay {
+    display: none;
+}
+
+.elementor-container-elementor-column-gap-default {
+    display: none;
+}
+
+.go-top-show {
+    border-radius: 100px;
+}    
+
+
+ @media screen and (min-width: 1200px) { 
+     .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+         justify-content: center;
+         align-items: center;
+     }
+
     .site-header {
         background-color: transparent;
         position: relative;
@@ -24,21 +47,6 @@ Text Domain:sydney
         position: relative;
         }
 }
-*/
 
-.elementor-element elementor-element-731e5d96 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section {
-    display: none;
-}
 
-.elementor-background-overlay {
-    display: none;
-}
-
-.elementor-container elementor-column-gap-default {
-    display: none;
-}
-
-.go-top-show {
-    border-radius: 100px;
-}    
 
