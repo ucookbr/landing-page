@@ -28,6 +28,11 @@ Text Domain:sydney
     border-radius: 100px;
 }    
 
+
+
+
+/*Responsivo*/
+
 @media screen and (min-width: 1024px) { 
     .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
         justify-content: center;
@@ -85,7 +90,7 @@ Text Domain:sydney
 
     .site-header.fixed {
         background-color: transparent;
-        position: absolute;
+        position: relative;
         padding-right: 450px;
         }
     .btn-menu {
