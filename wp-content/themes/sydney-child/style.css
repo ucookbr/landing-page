@@ -99,7 +99,7 @@ Text Domain:sydney
         display: none;
         }
 
-    button#responsive-menu-button {
+    #responsive-menu-button {
         width: 8%;
         height: 4%;
         }
