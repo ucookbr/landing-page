@@ -74,10 +74,9 @@ Text Domain:sydney
 }
 /*Sobre Nós*/
 
-.elementor-text-editor.elementor-clearfix {
-    padding-left: 325px;
-}
-}
+    .elementor-text-editor.elementor-clearfix {
+        padding-left: 325px;
+    }
 }
 
 @media screen and (min-width: 1024px) { 
