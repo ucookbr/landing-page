@@ -117,6 +117,11 @@ Text Domain:sydney
    .owl-wrapper {
        padding-left: 170px;
 }
+/*Sobre Nós*/
+
+.elementor-text-editor.elementor-clearfix {
+    padding-left: 340px;
+}
 }
 
  @media screen and (min-width: 1200px) { 
