@@ -20,10 +20,13 @@ Text Domain:sydney
 }
 
 .text-slider .subtitle {
-    color: #d65050;
+    color: #d65050 !important;
     background-color: #fff;
+    padding: 35px 0 35px;
+    letter-spacing: 2px;
+    line-height: 10px;
     margin: auto;
-    width: 68%;
+    width: 64%;
 }
 
 .roll-button {
