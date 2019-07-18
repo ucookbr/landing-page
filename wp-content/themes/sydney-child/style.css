@@ -34,6 +34,52 @@ Text Domain:sydney
 
 /*Responsivo*/
 
+@media screen and (min-width: 990px) { 
+   
+    /*Header*/
+    .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+        justify-content: center;
+        align-items: center;
+    }
+    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
+   .site-header {
+       background-color: transparent;
+       position: relative;
+    }
+        
+/*Slider*/
+    .contain.animated.fadeInRightBig.text-slider .maintitle {
+        color: #d65050;
+        background-color: #fff;
+    }
+
+    .text-slider .subtitle {
+        color: #d65050 !important;
+        background-color: #fff;
+        padding: 35px 0 35px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin: auto;
+        width: 93%;
+    }
+
+    .roll-button {
+        margin-top: 20px;
+    }
+
+
+/*Time*/
+   .owl-wrapper {
+       padding-left: 170px;
+}
+/*Sobre Nós*/
+
+.elementor-text-editor.elementor-clearfix {
+    padding-left: 325px;
+}
+}
+}
+
 @media screen and (min-width: 1024px) { 
    
     /*Header*/
@@ -109,6 +155,12 @@ Text Domain:sydney
     .owl-wrapper {
         padding-left: 245px;
 }
+
+/*Sobre Nós*/
+
+    .elementor-text-editor.elementor-clearfix {
+        padding-left: 350px;
+    }
 }
 
 @media screen and (min-width: 1500px) { 
