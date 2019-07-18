@@ -11,6 +11,20 @@ Tags: responsive-layout, food, cooking, diabetes, ight-sidebar, responsive-layou
 Text Domain:sydney
 */
 
+
+/*Slider*/
+
+.text-slider .maintitle {
+    color: #d65050;
+    background-color: #fff;
+}
+
+.text-slider .subtitle {
+    color: #d65050;
+    background-color: #fff;
+
+}
+
 /* Reativar/Excluir quando tivermos primeiros clientes */
 .elementor-element.elementor-element-731e5d96.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
     display: none;
