@@ -14,7 +14,7 @@ Text Domain:sydney
 
 /*Slider*/
 
-.text-slider .maintitle {
+.contain.animated.fadeInRightBig.text-slider .maintitle {
     color: #d65050;
     background-color: #fff;
 }
