@@ -11,27 +11,6 @@ Tags: responsive-layout, food, cooking, diabetes, ight-sidebar, responsive-layou
 Text Domain:sydney
 */
 
-/*Header*/
-        
-/*Slider*/
-.contain.animated.fadeInRightBig.text-slider .maintitle {
-    color: #d65050;
-    background-color: #fff;
-}
-
-.text-slider .subtitle {
-    color: #d65050 !important;
-    background-color: #fff;
-    padding: 35px 0 35px;
-    letter-spacing: 2px;
-    line-height: 10px;
-    margin: auto;
-    
-}
-
-.roll-button {
-    margin-top: 20px;
-}
 
 /* Reativar/Excluir quando tivermos primeiros clientes */
 .elementor-element.elementor-element-731e5d96.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
@@ -56,6 +35,8 @@ Text Domain:sydney
 /*Responsivo*/
 
 @media screen and (min-width: 1024px) { 
+   
+    /*Header*/
     .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
         justify-content: center;
         align-items: center;
@@ -64,8 +45,29 @@ Text Domain:sydney
    .site-header {
        background-color: transparent;
        position: relative;
-       }
-       
+    }
+        
+/*Slider*/
+    .contain.animated.fadeInRightBig.text-slider .maintitle {
+        color: #d65050;
+        background-color: #fff;
+    }
+
+    .text-slider .subtitle {
+        color: #d65050 !important;
+        background-color: #fff;
+        padding: 35px 0 35px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin: auto;
+        width: 93%;
+    }
+
+    .roll-button {
+        margin-top: 20px;
+    }
+
+
 /*Time*/
    .owl-wrapper {
        padding-left: 170px;
@@ -82,9 +84,67 @@ Text Domain:sydney
         background-color: transparent;
         position: relative;
         }
+
+/*Slider*/
+    .contain.animated.fadeInRightBig.text-slider .maintitle {
+        color: #d65050;
+        background-color: #fff;
+    }
+
+    .text-slider .subtitle {
+        color: #d65050 !important;
+        background-color: #fff;
+        padding: 35px 0 35px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin: auto;
+        width: 80%;
+    }
+
+    .roll-button {
+        margin-top: 20px;
+    }
+
 /*Time*/
     .owl-wrapper {
         padding-left: 245px;
+}
+}
+
+@media screen and (min-width: 1500px) { 
+    .elementor-element-elementor-element-504f5825-elementor-section-stretched-elementor-section-boxed-elementor-section-height-default-elementor-section-height-default-elementor-section-elementor-top-section {
+        justify-content: center;
+        align-items: center;
+    }
+    .home.page-template.page-template-page-templates.page-template-page_front-pagepage-template-page-templatespage_front-page-php.page.page-id-51 responsive-menu-slide-left elementor-default elementor-page elementor-page-51 siteScrolled
+   .site-header {
+       background-color: transparent;
+       position: relative;
+       }
+
+/*Slider*/
+   .contain.animated.fadeInRightBig.text-slider .maintitle {
+       color: #d65050;
+       background-color: #fff;
+   }
+
+   .text-slider .subtitle {
+       color: #d65050 !important;
+       background-color: #fff;
+       padding: 35px 0 35px;
+       letter-spacing: 2px;
+       line-height: 10px;
+       margin: auto;
+       width: 64%;
+   }
+
+   .roll-button {
+       margin-top: 20px;
+   }
+
+/*Time*/
+   .owl-wrapper {
+       padding-left: 245px;
 }
 }
 
