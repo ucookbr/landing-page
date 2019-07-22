@@ -172,7 +172,7 @@ Text Domain:sydney
         padding-left: 350px;
     }
 
-    button#responsive-menu-button{
+    #responsive-menu-button {
         top: 28px;
     }
 }
