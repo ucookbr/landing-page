@@ -171,6 +171,10 @@ Text Domain:sydney
     .elementor-text-editor.elementor-clearfix {
         padding-left: 350px;
     }
+
+    button#responsive-menu-button{
+        top: 28px;
+    }
 }
 
 @media screen and (min-width: 1500px) { 
