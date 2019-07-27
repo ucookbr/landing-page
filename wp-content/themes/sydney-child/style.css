@@ -172,10 +172,11 @@ Text Domain:sydney
 
 /*Sobre Nós*/
 
-    .elementor-text-editor.elementor-clearfix {
+    /*Voltar ao refutar no ELementor*/
+   /* .elementor-text-editor.elementor-clearfix {
         padding-left: 350px;
     }
-
+*/
     .responsive-menu-button {
         top: 28px;
     }
